@@ -8,7 +8,8 @@
 
 import Foundation
 
-class Item {
+// Codable - means - that class is Encodable and Decodable
+class Item: Codable {
     var title: String = ""
     var done: Bool = false
 }
